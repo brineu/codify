@@ -1,0 +1,176 @@
+.navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+}
+
+/* Atur tata letak untuk logo dan tulisan Codify */
+.navbar-brand {
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            color: #ffffff;
+}
+
+/* Berikan margin kanan pada logo untuk memberikan jarak */
+.navbar-brand img {
+            margin-right: 10px;
+}
+.navbar-brand{
+	display: flex;
+	align-items: center;
+}
+.navbar-brand:hover {
+	color: #B6B7F9;
+}
+          
+
+.navbar-brand i {
+	margin-right: 15px;
+}
+
+/* Atur warna teks untuk menu "Product," "Mentor," dan "About Us" */
+.nav-link {
+            color: #F6F8FD;
+}
+
+.nav-link:hover {
+            color: #3F4ABD;
+}
+
+/* Atur tata letak untuk tombol Login dan Sign up */
+.form-inline {
+            display: flex;
+            align-items: center;
+}
+
+
+html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+}
+
+html,body {
+	height: 100%;
+}
+
+body.my-login-page {
+	background-color: #f7f9fb;
+	font-size: 14px;
+}
+
+.my-login-page .brand-content {
+	width: 140px;
+	height: 80px;
+	overflow: hidden;
+	margin: 60px auto;
+	position: relative;
+	justify-content: center;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+.my-login-page .brand-content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	align-items: center;
+}
+
+.my-login-page .brand-content img {
+	width: 45px; /* Sesuaikan ukuran gambar logo */
+	height: auto;
+
+}
+
+.my-login-page .brand-text {
+	font-weight: bold;
+	color: #00045D; 
+	font-size: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.my-login-page .card-wrapper {
+	width: 400px;
+}
+
+.my-login-page .card {
+	border-color: transparent;
+	box-shadow: 0 4px 8px rgba(0,0,0,.05);
+}
+
+#eyeIcon {
+	display: none;
+}
+
+.my-login-page .card.fat {
+	padding: 10px;
+}
+
+.my-login-page .card .card-title {
+	margin-bottom: 30px;
+}
+
+.my-login-page .form-control {
+	border-width: 2.3px;
+}
+
+.my-login-page .form-group label {
+	width: 100%;
+}
+
+.my-login-page .btn.btn-block {
+	padding: 12px 10px;
+	background-color: #3F4ABD;
+	border-color: #3F4ABD;
+}
+
+.my-login-page .btn.btn-block:active {
+	background-color: #1B0F4E; 
+        }
+
+.card.fat{
+	background-color: #2C187F;
+	margin-left: auto;
+	margin-right: auto;
+	 color: #ffffff;
+}
+
+.my-login-page .text-center a {
+	color: #90BDE6;
+	text-decoration: underline;
+        }
+
+.form-control[data-eye="true"] {
+	background-color: #800080; /* Ganti warna dengan kode warna ungu sesuai keinginan Anda */
+}
+
+.my-login-page .footer {
+	margin: 45px 0;
+	color: #888;
+	text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+	.my-login-page .card-wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.my-login-page .card.fat {
+		padding: 0;
+	}
+
+	.my-login-page .card.fat .card-body {
+		padding: 15px;
+	}
+}
