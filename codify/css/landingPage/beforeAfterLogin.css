@@ -163,7 +163,7 @@ body{
   }
 
 .dropdown:hover .icon-container i {
-    color: #F6F8FD; /* Ganti dengan warna hover yang diinginkan */
+    color: #ffffff; /* Ganti dengan warna hover yang diinginkan */
 }
 
 .dropdown:hover .dropdown-menu {
