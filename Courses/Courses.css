@@ -124,21 +124,6 @@ body {
     
 }
 
-.discussion-button {
-    text-align: center;
-}
-
-.discussion-button button {
-    background-color: #ffffff;
-    color: #301F76;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-
 /* Main Content */
 
 .main-content {
