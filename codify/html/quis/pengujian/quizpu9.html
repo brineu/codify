@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/codify/css/quiz/quiz10.css">
+    <link rel="stylesheet" href="style2.css">
     <title>Quiz Navbar</title>
 </head>
 <body>
     <div class="navbar">
-        <div class="back-arrow"><img href="" src="/codify/img/back.png" alt="Back"></div>
+        <div class="back-arrow"><img src="/codify/img/back.png" alt="Back"></div>
         <div class="quiz-title">Quiz</div>
     </div>
 
     <div class="container">
-        <p class="container-text">Python Beyond Basic > Dasar - Dasar Python</p>
+        <p class="container-text">Python Beyond Basic > Pengujian dan Debugging</p>
     </div>
 
     <div class="question">
-        <p class="question-text">10. Bagaimana cara mendefinisikan fungsi di Python?</p>
+        <p class="question-text">9. Apa fungsi dari `pdb.pm()`?</p>
     </div>
 
     <div class="options-box">
@@ -25,7 +25,7 @@
             <input type="radio" name="gender" id="dot-1">
             <div class="category">
                 <label for="dot-1">
-                    <span class="gender">function myFunction():</span>
+                    <span class="gender">Menjalankan perintah `pm`</span>
                 </label>
             </div>
         </div>
@@ -37,7 +37,7 @@
             <input type="radio" name="gender" id="dot-2">
             <div class="category">
                 <label for="dot-2">
-                    <span class="gender">define myFunction():</span>
+                    <span class="gender">Menampilkan pesan error</span>
                 </label>
             </div>
         </div>
@@ -49,7 +49,7 @@
             <input type="radio" name="gender" id="dot-3">
             <div class="category">
                 <label for="dot-3">
-                    <span class="gender">def myFunction():</span>
+                    <span class="gender">Melakukan post-mortem debugging</span>
                 </label>
             </div>
         </div>
@@ -61,7 +61,7 @@
             <input type="radio" name="gender" id="dot-4">
             <div class="category">
                 <label for="dot-4">
-                    <span class="gender">func myFunction():</span>
+                    <span class="gender">Memeriksa modul `pdb`</span>
                 </label>
             </div>
         </div>
@@ -70,13 +70,18 @@
 
     <form id="quizForm">
         <button type="button" class="back-button" onclick="goToPreviousPage()">Back</button>
+        <button type="button" class="next-button" onclick="goToNextPage()">Next</button>
     </form>
 
     <script>
         function goToPreviousPage() {
-            window.location.href = "quizd9.html";
+            window.location.href = "quizpu8.html";
         }
 
+        function goToNextPage() {
+            window.location.href = "quizpu10.html";
+        }
     </script>
 </body>
 </html>
+\
