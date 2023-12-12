@@ -1,0 +1,271 @@
+
+body {
+    background: #F6F8FD;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(27, 15, 78, 1);
+    padding: 15px;
+}
+
+/* Atur tata letak untuk logo dan tulisan Codify */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #B6B7F9;
+}
+
+.navbar-brand:hover {
+    color: #B6B7F9;
+}
+
+/* Berikan margin kanan pada logo untuk memberikan jarak */
+.navbar-brand img {
+    margin-right: 10px; /* Sesuaikan ukuran margin sesuai kebutuhan Anda */
+}
+
+/* Atur warna teks untuk menu "Product," "Mentor," dan "About Us" */
+.nav-link {
+    color: #F6F8FD;
+}
+
+.nav-link:hover {
+    color: #B6B7F9;
+}
+
+/* Atur tata letak untuk tombol Login dan Sign up */
+.form-inline {
+    display: flex;
+    align-items: center;
+}
+
+.transparent-background {
+    background-color: transparent !important; /* Mengatur latar belakang transparan */
+    border: 1px solid #B6B7F9; /* Menghilangkan border */
+    outline: none; /* Menghilangkan outline saat di-focus */
+    color: #ffffff; /* Warna teks */
+    display: flex; /* agar icon profile bisa di sebelah searcj*/
+    align-items: center;
+    margin-right: 15px;
+    border-radius: 20px;
+    border-color: #B6B7F9;
+}
+
+.form {
+    position: relative;
+}
+
+.form-input::placeholder {
+    color: #ffffff;
+    padding-left: 5px;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown {
+    position: relative; 
+}
+
+.dropdown:hover .icon-container i {
+    color: #F6F8FD;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #2A177A;
+    color: #ffffff; 
+}
+
+/* Header */
+
+.header-section {
+    background: linear-gradient(360deg, #361D9D 0%, #1B0F4E 100%);
+    color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-image img {
+    width: 400px; /* Sesuaikan ukuran gambar sesuai kebutuhan Anda */
+    margin-left: 50px;
+}
+
+.header-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+
+.course-description {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.discussion-button {
+    text-align: center;
+}
+
+.discussion-button button {
+    background-color: #ffffff;
+    color: #301F76;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+/* Main Content */
+
+.main-content {
+    text-align: center;
+}
+
+.progress-bar {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; /* Menjadikan elemen anak di dalam kolom */
+    align-items: center; /* Pusatkan horizontal */
+    color: black;
+    background-color: transparent;
+}
+
+.progress-text {
+    color: black;
+    margin-bottom: 5px;
+    font-size: 25px; /* Jarak antara tulisan dan kotak progres */
+}
+
+.progress-box {
+    width: 150px;
+    height: 10px;
+    background-color: #B8B8B8;
+    flex-shrink: 0;
+}
+
+.progress-fill {
+    width: 41%;
+    height: 100%;
+    background-color: #361D9D;
+}
+
+
+.course-row {
+    display: flex;
+    flex-direction: column; /* Mengubah menjadi kolom */
+    align-items: center; /* Mengatur agar kontennya berada di tengah secara horizontal */
+}
+
+.course-box {
+    margin-top: 10px;
+    width: 600px;
+    height: 60px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex; /* Menjadikan .course-box menjadi flex container */
+    align-items: center;
+    padding: 15px; /* Mengatur agar kontennya berada di tengah secara vertikal */
+}
+
+.box-content {
+    background-color: inherit;
+    flex-grow: 1; /* Agar .box-content memenuhi sisa ruang di .course-box */
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.play-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px; /* Memberikan jarak antara logo play dan teks */
+}
+
+.box-text {
+    font-size: 25px;
+    font-weight: bold; /* Membuat teks menjadi bold */
+    text-align: center; /* Mengatur posisi teks menjadi di tengah */
+}
+
+
+/* Footer */
+
+.footer {
+    background: #2B187C;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    width: 30%;
+    margin-left: 50px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-left p {
+    margin-top: 10px;
+}
+
+.footer-center {
+    width: 30%;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.footer-heading {
+    font-weight: bold;
+}
+
+.footer-right {
+    width: 30%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.contact-item img {
+    width: 20px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 30px; /* Membuat background-color menjadi lingkaran */
+}
